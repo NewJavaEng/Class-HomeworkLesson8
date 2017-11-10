@@ -1,7 +1,7 @@
 package by.http.equipmentTask.model.equipment;
 
-public class Cycle extends Equipment{
-	
+public class Cycle extends Equipment {
+
 	private int height;
 
 	public Cycle(String title, Category category, int id, String colour, int height) {
@@ -15,11 +15,8 @@ public class Cycle extends Equipment{
 
 	@Override
 	public String toString() {
-		return "Cycle Title: " + getTitle() + ", category: " + getCategory()+ ", height: " + getHeight() + ", colour: " + getColour()+ ", cycle id: " + getId();
+		return "Cycle title: " + getTitle() + ", category: " + getCategory() + ", height: " + getHeight() + ", colour: "
+				+ getColour() + ", cycle id: " + getId();
 	}
-	
-	
-	
-	
 
 }
